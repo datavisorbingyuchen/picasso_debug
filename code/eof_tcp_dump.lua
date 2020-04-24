@@ -1,0 +1,6 @@
+ngx.log(ngx.ERR, "sleep 10")
+ngx.sleep(10)
+ngx.say("ok")
+ngx.eof()
+ngx.log(ngx.ERR, "sleep 10")
+ngx.sleep(10)
